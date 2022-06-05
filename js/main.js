@@ -1,19 +1,7 @@
 
+document.body.style.background = 'red'; // make the background red
 
-// let array = ["salom dunyo"];
-
-// console.log(array.reverse());
-
-let arr = ["i","study","JavaScript","right","now"];
-
-console.log(arr.slice()[2]);
+setTimeout(() => document.body.style.background = '', 3000); // return back
 
 
-let number = 2;
-
-function num(number) {
-    if(number > 0)
-
-}
-
-num(1)
+console.log(document.body.offsetWidth)
